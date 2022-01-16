@@ -1,5 +1,23 @@
 <script>
 	import photo from '/static/photo.jpg';
+	import insta from '/static/insta.svg';
+	import github from '/static/git.svg';
+	import linkedin from '/static/in.svg';
+	import fb from '/static/fb.svg';
+	import java from '/static/java.svg';
+	import c from '/static/c.svg';
+	import python from '/static/python.svg';
+	import haskell from '/static/haskell.svg';
+	import js from '/static/js.svg';
+	import react from '/static/react.svg';
+	import html from '/static/html.svg';
+	import css from '/static/css.svg';
+	import vc from '/static/vc.svg';
+	import sql from '/static/sql.svg';
+	import elm from '/static/elm.svg';
+	import rust from '/static/rust.png';
+	import solidity from '/static/solidity.svg';
+	import kotlin from '/static/kotlin.png';
 </script>
 
 <main id>
@@ -33,18 +51,18 @@
 				<a
 					href="https://www.linkedin.com/in/george-ungureanu-vranceanu-b11957185/"
 					target="_blank"
-					rel="noreferrer"><img src="/static/in.svg" alt="linkedin" /></a
+					rel="noreferrer"><img src={linkedin} alt="linkedin" /></a
 				>
 				<a href="https://github.com/Gungy2" target="_blank" rel="noreferrer"
-					><img src="/static/git.svg" alt="github" /></a
+					><img src={github} alt="github" /></a
 				>
 				<a
 					href="https://www.facebook.com/george.ungureanuvranceanu"
 					target="_blank"
-					rel="noreferrer"><img src="/static/fb.svg" alt="facebook" /></a
+					rel="noreferrer"><img src={fb} alt="facebook" /></a
 				>
 				<a href="https://www.instagram.com/george_1011" target="_blank" rel="noreferrer"
-					><img src="/static/insta.svg" alt="instagram" /></a
+					><img src={insta} alt="instagram" /></a
 				>
 			</div>
 		</article>
@@ -88,13 +106,11 @@
 				internships.
 			</p>
 			<p>
-				If you want to see some of my most notable projects, go to my <a href="/portfolio"
-					>portfolio</a
-				> page.
+				If you want to see some of my most notable projects, go to my <a href="/">portfolio</a> page.
 			</p>
 			<p>
 				On the other hand, if I already seem like a good developer to you, go ahead and send me a
-				message in the <a href="/contact">contact</a> page or at my
+				message in the <a href="/">contact</a> page or at my
 				<a href="mailto:gungureanuvranceanu@gmail.com">email address</a>.
 			</p>
 		</article>
@@ -108,20 +124,20 @@
 				confident that I would be up to speed with any team in a very short time.
 			</p>
 			<ul>
-				<li><img src="/static/java.svg" alt="Java" />Java</li>
-				<li><img src="/static/c.svg" alt="C" />C</li>
-				<li><img src="/static/python.svg" alt="Python" />Python</li>
-				<li><img src="/static/haskell.svg" alt="Haskell" />Haskell</li>
-				<li><img src="/static/js.svg" alt="JavaScript" />JavaScript</li>
-				<li><img src="/static/react.svg" alt="React" />React</li>
-				<li><img src="/static/html.svg" alt="HTML5" />HTML5</li>
-				<li><img src="/static/css.svg" alt="CSS" />CSS</li>
-				<li><img src="/static/vc.svg" alt="Git" />Git</li>
-				<li><img src="/static/sql.svg" alt="SQL" />SQL</li>
-				<li><img src="/static/elm.svg" alt="Elm" />Elm</li>
-				<li><img src="/static/rust.png" alt="Rust" />Rust</li>
-				<li><img src="/static/solidity.svg" alt="Solidity" />Solidity</li>
-				<li><img src="/static/kotlin.png" alt="Kotlin" />Kotlin</li>
+				<li><img src={java} alt="Java" />Java</li>
+				<li><img src={c} alt="C" />C</li>
+				<li><img src={python} alt="Python" />Python</li>
+				<li><img src={haskell} alt="Haskell" />Haskell</li>
+				<li><img src={js} alt="JavaScript" />JavaScript</li>
+				<li><img src={react} alt="React" />React</li>
+				<li><img src={html} alt="HTML5" />HTML5</li>
+				<li><img src={css} alt="CSS" />CSS</li>
+				<li><img src={vc} alt="Git" />Git</li>
+				<li><img src={sql} alt="SQL" />SQL</li>
+				<li><img src={elm} alt="Elm" />Elm</li>
+				<li><img src={rust} alt="Rust" />Rust</li>
+				<li><img src={solidity} alt="Solidity" />Solidity</li>
+				<li><img src={kotlin} alt="Kotlin" />Kotlin</li>
 			</ul>
 		</article>
 	</section>
