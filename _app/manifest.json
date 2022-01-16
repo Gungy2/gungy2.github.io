@@ -1,0 +1,88 @@
+{
+  ".svelte-kit/runtime/client/start.js": {
+    "file": "start-b7d7af12.js",
+    "src": ".svelte-kit/runtime/client/start.js",
+    "isEntry": true,
+    "imports": [
+      "_vendor-49610bc0.js"
+    ],
+    "dynamicImports": [
+      "src/routes/__layout.svelte",
+      ".svelte-kit/runtime/components/error.svelte",
+      "src/routes/index.svelte",
+      "src/routes/about.svelte"
+    ]
+  },
+  "src/routes/__layout.svelte": {
+    "file": "pages/__layout.svelte-7dc75f72.js",
+    "src": "src/routes/__layout.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-49610bc0.js"
+    ],
+    "css": [
+      "assets/pages/__layout.svelte-097a4e97.css"
+    ],
+    "assets": [
+      "assets/CV-77f351e7.pdf"
+    ]
+  },
+  ".svelte-kit/runtime/components/error.svelte": {
+    "file": "error.svelte-eed6ba29.js",
+    "src": ".svelte-kit/runtime/components/error.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-49610bc0.js"
+    ]
+  },
+  "src/routes/index.svelte": {
+    "file": "pages/index.svelte-26b72d34.js",
+    "src": "src/routes/index.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-49610bc0.js"
+    ],
+    "css": [
+      "assets/pages/index.svelte-acb97e6b.css"
+    ]
+  },
+  "src/routes/about.svelte": {
+    "file": "pages/about.svelte-8d2a3f42.js",
+    "src": "src/routes/about.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-49610bc0.js"
+    ],
+    "css": [
+      "assets/pages/about.svelte-83e9be0a.css"
+    ],
+    "assets": [
+      "assets/photo-b7a8b4a7.jpg",
+      "assets/insta-e308cd9a.svg",
+      "assets/git-5e18e9f2.svg",
+      "assets/in-74cf1600.svg",
+      "assets/fb-dc96fbe1.svg",
+      "assets/java-079f693f.svg",
+      "assets/c-b2a8b888.svg",
+      "assets/python-33cad21d.svg",
+      "assets/haskell-6e67dbb4.svg",
+      "assets/js-48b8a11a.svg",
+      "assets/react-642c98b2.svg",
+      "assets/html-233ffc13.svg",
+      "assets/css-97be7da1.svg",
+      "assets/vc-85e58710.svg",
+      "assets/sql-448d8f82.svg",
+      "assets/elm-c1e937bb.svg",
+      "assets/rust-2729c61a.png",
+      "assets/solidity-8876edda.svg",
+      "assets/kotlin-c12195af.png"
+    ]
+  },
+  "_vendor-49610bc0.js": {
+    "file": "chunks/vendor-49610bc0.js"
+  }
+}
