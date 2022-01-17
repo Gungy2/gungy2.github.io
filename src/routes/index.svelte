@@ -6,6 +6,10 @@
 	<h2>If you wish to know more about me, <a href="/about">click here!</a></h2>
 </main>
 
+<svelte:head>
+	<title>Welcome</title>
+</svelte:head>
+
 <style>
 	main {
 		display: flex;
@@ -14,12 +18,12 @@
 	}
 	h1 {
 		margin-top: 120px;
-    margin-bottom: 40px;
+		margin-bottom: 40px;
 		font-weight: bold;
 	}
 	h2 {
 		width: 90vw;
-    margin-top: 10px;
+		margin-top: 10px;
 		text-align: center;
 	}
 

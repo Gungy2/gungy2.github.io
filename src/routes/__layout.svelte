@@ -13,9 +13,9 @@
 		<div class="collapsible-body">
 			<ul class="inline">
 				<li><a href="/about">About</a></li>
-				<li><a href="/">Portfolio</a></li>
+				<li><a href="/portofolio">Portfolio</a></li>
 				<li><a href={cv} rel="external">Résumé</a></li>
-				<li><a href="/">Contact</a></li>
+				<li><a href="/contact">Contact</a></li>
 			</ul>
 		</div>
 	</div>
