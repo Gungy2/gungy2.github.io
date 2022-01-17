@@ -1,6 +1,6 @@
 {
   ".svelte-kit/runtime/client/start.js": {
-    "file": "start-52affda5.js",
+    "file": "start-25b0811b.js",
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
@@ -52,7 +52,7 @@
     ]
   },
   "src/routes/portofolio.svelte": {
-    "file": "pages/portofolio.svelte-78da43cb.js",
+    "file": "pages/portofolio.svelte-ddfdca8b.js",
     "src": "src/routes/portofolio.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -61,7 +61,7 @@
       "_solidity-f894501b.js"
     ],
     "css": [
-      "assets/pages/portofolio.svelte-450c1d2f.css"
+      "assets/pages/portofolio.svelte-00e9e1f7.css"
     ],
     "assets": [
       "assets/FiFish-cc0c511d.gif",
