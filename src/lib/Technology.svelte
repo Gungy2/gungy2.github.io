@@ -1,18 +1,19 @@
 <script lang="ts">
+  import { technologies } from './store';
+
   export let name: string;
-  export let path: string;
 </script>
 
-<li><img src={path} alt={name} />{name}</li>
+<li><img src={`/${$technologies[name]}`} alt={name} />{name}</li>
 
-<style>
-  li::before {
-    display: none;
-  }
-
+<style lang="scss">
   li {
     text-align: center;
     margin: 10px 30px;
+
+    &::before {
+      display: none;
+    }
   }
 
   img {
